@@ -1,0 +1,45 @@
+body{
+    background-color: #EFFFFB;
+
+    font-family: "Geologica", sans-serif
+}
+
+.site{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+#UBC_Logo{
+    width: 27%;
+}
+
+#primary-nav{
+    background-color: #4F98CA;
+}
+
+.nav-link{
+    color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 5vw;
+  height: 5vw;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 8vw;
+}
+
+.carousel-indicators{
+    width: 50vw;
+    justify-self: center;
+}
+
+.club-info{
+    background-color: #EFFFFB;
+    padding: 2% 10% 2% 10%;
+}

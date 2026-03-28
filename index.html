@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Link to bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Link to CSS stylesheet -->
+    <link rel="stylesheet" href="light.css">
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- div containing the html of the page, keeps it separate from the JavaScript at the bottom -->
+    <div class="site">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" id="primary-nav">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/UBC_Logo.png" id="UBC_Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav w-100 justify-content-evenly">
+                <a class="nav-link" href="#">Juniors</a>
+                <a class="nav-link" href="#">More Info</a>
+                <a class="nav-link" href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Image Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <!-- Buttons to click to specific images in the carousel-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+
+            <!-- Images in the carousel itself -->
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/Carousel_Image_01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_03.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_04.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_05.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_06.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_07.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_08.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_09.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Carousel_Image_10.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <!-- Button to go "back" an image -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <!-- Button to go "forward" an image -->
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Information about the club-->
+        <div class="club-info">
+            <h3>Our Club</h3>
+            <p>Unicorn Badminton Club is a small, friendly club of league and club players, students, junior players and coaches.</p>
+            <p>We really welcome visitors so please do come and try us out - the club is a great night out whether you are an experienced player, someone who played a long while back and is now interested in returning to badminton, or someone wanting to progress your play on from casual to a bit more competitive. We particularly welcome younger players (juniors and students) to help you enjoy and develop your game, and to gain an introduction to a lifetime of healthy, enjoyable sport.</p>
+        
+            <h6>Adults and Students: We play on Thursday nights:</h6>
+                <p>•  From 7:30pm to 9:30pm.</p>
+                <p>•   Season dates: 4th September 2025 to 30th April 2026 inclusive (but excluding 27th December and some occasions when the sports hall is required by the school for examinations).</p>
+        
+            <h6>Juniors: We have two groups:</h6>
+                <p>•  Beginners (approx ages 8 to 12 yrs) play on Thursdays from 5:30pm to 6:30pm
+                Season dates: 11th September 2025 to 30th April 2026 inclusive (but excluding the school Autumn/February half-term holidays and Christmas/Easter holidays, and occasional school use of the hall for exams).
+                       <br>- click <a href="#">here</a> for more information</p>
+                <p>•  Improvers (approx ages 13 to 18 yrs) play on Mondays from 5:30pm to 7:00pm
+                Season dates: 8th September 2025 to 27th April 2026 inclusive (but excluding the school Autumn/February half-term holidays and Christmas/Easter holidays, and occasional school use of the hall for exams.).
+                       <br>- click <a href="#">here</a> for more information</p>
+        </div>
+
+
+        
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
