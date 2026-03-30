@@ -17,6 +17,7 @@ body{
 
 #primary-nav{
     background-color: #4F98CA;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .nav-link{
@@ -42,4 +43,81 @@ body{
 .club-info{
     background-color: #EFFFFB;
     padding: 2% 10% 2% 10%;
+}
+
+#homepage-carousel{
+    width: 80vw;
+    display: flex;
+    justify-self: center;
+}
+
+.centered-paragraph{
+    justify-self: center;
+}
+
+.socials{
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.footer-icon{
+    width: 3vh;
+}
+
+#footer-link:hover{
+    color:#c5e3ff;
+}
+
+footer{
+    display: flex;
+    background-color: #272727;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 1% 10% 1% 10%;
+    
+}
+
+.contact-us-info{
+    background-color: #EFFFFB;
+    padding: 2% 10% 2% 10%;
+}
+
+.contact-us-forms{
+    padding: 2% 10% 2% 10%;
+}
+
+#submit-button{
+    background-color: #50D890;
+    color: black;
+    border: none;
+}
+
+#submit-button-div{
+    display: flex;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 991px) {
+    #homepage-carousel {
+        width: 100vw;
+    }
+
+    p{
+        font-size: small;
+    }
+
+    h3{
+        font-size: small;
+    }
+
+    h6{
+        font-size: small;
+    }
+
+    footer{
+        font-size: small;
+    }
+
 }
