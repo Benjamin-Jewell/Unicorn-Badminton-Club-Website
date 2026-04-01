@@ -1,7 +1,9 @@
 body{
     background-color: #EFFFFB;
 
-    font-family: "Geologica", sans-serif
+    font-family: "Geologica", sans-serif;
+    
+    overflow-x: hidden;
 }
 
 .site{
@@ -43,6 +45,10 @@ body{
 .club-info{
     background-color: #EFFFFB;
     padding: 2% 10% 2% 10%;
+}
+
+a{
+    color:#50D890;
 }
 
 #homepage-carousel{
@@ -99,6 +105,21 @@ footer{
     justify-content: end;
 }
 
+.juniors-info{
+    background-color: #EFFFFB;
+    padding: 2% 10% 2% 10%;
+}
+
+.juniors-image{
+    width: 15vw;
+    justify-self: center;
+}
+
+.juniors-img-div{
+    padding: 30% 10% 30% 10%;
+    width: 18vw;
+}
+
 @media only screen and (max-width: 991px) {
     #homepage-carousel {
         width: 100vw;
@@ -120,4 +141,13 @@ footer{
         font-size: small;
     }
 
+    #juniors-image-col{
+        display: none;
+    }
+
+    #juniors-info-col{
+        width: 100vw;
+    }
+
 }
+
