@@ -120,6 +120,11 @@ footer{
     width: 18vw;
 }
 
+.more-info-p{
+    background-color: #EFFFFB;
+    padding: 2% 10% 2% 10%;
+}
+
 @media only screen and (max-width: 991px) {
     #homepage-carousel {
         width: 100vw;
