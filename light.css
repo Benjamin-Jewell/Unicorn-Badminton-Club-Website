@@ -14,7 +14,7 @@ body{
 }
 
 #UBC_Logo{
-    width: 27%;
+    width: 3.5vw;
 }
 
 #primary-nav{
@@ -49,6 +49,10 @@ body{
 
 a{
     color:#50D890;
+}
+
+a:hover{
+    color:#409668
 }
 
 #homepage-carousel{
@@ -100,6 +104,10 @@ footer{
     border: none;
 }
 
+#submit-button:hover{
+    background-color:#8ae4b4
+}
+
 #submit-button-div{
     display: flex;
     justify-content: end;
@@ -123,6 +131,43 @@ footer{
 .more-info-p{
     background-color: #EFFFFB;
     padding: 2% 10% 2% 10%;
+}
+
+.nav-title{
+    color: white;
+    justify-self: center;
+    align-self: center;
+    margin: 0 0 0 0;
+}
+
+#nav-title-col{
+    display: flex;
+}
+
+#nav-img-col{
+    padding-right: 0;
+    width: 8vw;
+}
+
+.accessibility-info{
+    background-color: #EFFFFB;
+    padding: 2% 10% 2% 10%;
+}
+
+.accessibility-option{
+    background-color: #EFFFFB;
+    padding: 2% 10% 2% 10%;
+}
+
+#accessibility-button{
+    background-color: #50D890;
+    color: black;
+    border: none;
+    margin-right: 3vw;
+}
+
+#accessibility-button:hover{
+    background-color:#8ae4b4
 }
 
 @media only screen and (max-width: 991px) {
@@ -152,6 +197,15 @@ footer{
 
     #juniors-info-col{
         width: 100vw;
+    }
+
+    #UBC_Logo{
+        width: 8vw;
+    }
+
+    .nav-title{
+        margin: 0 0 0 10%;
+        font-size: medium;
     }
 
 }
