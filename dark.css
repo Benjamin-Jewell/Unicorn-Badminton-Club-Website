@@ -1,5 +1,5 @@
 body{
-    background-color: #EFFFFB;
+    background-color: #383838;
 
     font-family: "Geologica", sans-serif;
     
@@ -18,7 +18,7 @@ body{
 }
 
 #primary-nav{
-    background-color: #4F98CA;
+    background-color: #787878;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
@@ -43,16 +43,17 @@ body{
 }
 
 .club-info{
-    background-color: #EFFFFB;
+    color: white;
+    background-color: #383838;
     padding: 2% 10% 2% 10%;
 }
 
 a{
-    color:#50D890;
+    color:#53A278;
 }
 
 a:hover{
-    color:#409668
+    color:#377a56
 }
 
 #homepage-carousel{
@@ -90,7 +91,8 @@ footer{
 }
 
 .contact-us-info{
-    background-color: #EFFFFB;
+    color: white;
+    background-color: #383838;
     padding: 2% 10% 2% 10%;
 }
 
@@ -99,13 +101,13 @@ footer{
 }
 
 #submit-button{
-    background-color: #50D890;
+    background-color: #53A278;
     color: black;
     border: none;
 }
 
 #submit-button:hover{
-    background-color:#8ae4b4
+    background-color:#60be8c
 }
 
 #submit-button-div{
@@ -114,7 +116,8 @@ footer{
 }
 
 .juniors-info{
-    background-color: #EFFFFB;
+    color: white;
+    background-color: #383838;
     padding: 2% 10% 2% 10%;
 }
 
@@ -126,10 +129,12 @@ footer{
 .juniors-img-div{
     padding: 30% 10% 30% 10%;
     width: 18vw;
+    color: white;
 }
 
 .more-info-p{
-    background-color: #EFFFFB;
+    color: white;
+    background-color: #383838;
     padding: 2% 10% 2% 10%;
 }
 
@@ -150,35 +155,37 @@ footer{
 }
 
 .accessibility-info{
-    background-color: #EFFFFB;
+    background-color: #383838;
     padding: 2% 10% 2% 10%;
+    color: white;
 }
 
 .accessibility-option{
-    background-color: #EFFFFB;
+    background-color: #383838;
     padding: 2% 10% 2% 10%;
+    color: white;
 }
 
 #accessibility-button{
-    background-color: #50D890;
+    background-color: #53A278;
     color: black;
     border: none;
     margin-right: 3vw;
 }
 
 #darkmode-accessibility-button{
-    background-color: #50D890;
+    background-color: #53A278;
     color: black;
     border: none;
     margin-right: 3vw;
 }
 
 #accessibility-button:hover{
-    background-color:#8ae4b4
+    background-color:#60be8c
 }
 
 #darkmode-accessibility-button:hover{
-    background-color:#8ae4b4
+    background-color:#60be8c
 }
 
 @media only screen and (max-width: 991px) {
