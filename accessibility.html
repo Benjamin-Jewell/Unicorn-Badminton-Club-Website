@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="content">
     <!-- div containing the html of the page, keeps it separate from the JavaScript at the bottom -->
     <div class="site">
 
@@ -64,9 +64,9 @@
         <!-- Font Size Buttons -->
         <div class="accessibility-option">
             <h3><b>Change Text Size</b></h3>
-            <button type="submit" class="btn btn-primary" id="accessibility-button">Small</button>
-            <button type="submit" class="btn btn-primary" id="accessibility-button">Medium</button>
-            <button type="submit" class="btn btn-primary" id="accessibility-button">Large</button>
+            <button type="submit" onclick="smallText()" class="btn btn-primary" id="accessibility-button">Small</button>
+            <button type="submit" onclick="mediumText()" class="btn btn-primary" id="accessibility-button">Medium</button>
+            <button type="submit" onclick="largeText()" class="btn btn-primary" id="accessibility-button">Large</button>
         </div>
 
         <br>
@@ -99,6 +99,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="dark-mode.js"></script>
+    <script src="font-size.js"></script>
 
 </body>
 </html>
